@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<article>
+
+  <div class="center">
+    <h1><a href="{{site.posts[0].url | prepend: site.baseurl }}">{{ site.posts[0].title }}</a></h1>
+    <time>{{ site.posts[0].date | date: '%B %-d, %Y' }}</time>
+  </div>
+
+  <div class="divider"></div>
+
+  {{ site.posts[0].content }}
+
+</article>
+
+<section>
+  {% if paginator.total_posts > 1 %}
+  <div class="divider"></div>
+  <strong>Older posts</strong>
+  <ul class="post-list">
+    {% for post_idx in (1..paginator.total_posts) %}
+    {% if post_idx < paginator.total_posts %}
+      <li>
+        <div class="post-date">
+          <span>{{ site.posts[post_idx].date | date: "%b %d, %Y" }}</span>
+        </div>
+        <div class="title">
+          <a href="{{ site.posts[post_idx].url | prepend: site.baseurl }}">{{ site.posts[post_idx].title }}</a>
+        </div>
+      </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% include footer.html %}
+</section>
