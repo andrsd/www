@@ -32,6 +32,7 @@ exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
 gems:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-feed
 paginate: 5
 
 compress_html:
