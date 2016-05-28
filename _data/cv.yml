@@ -1,0 +1,168 @@
+person:
+  name: David Andrs
+  email: andrsd@gmail.com
+  phone: (208) 709 6540
+  address: 2785 Eagle Dr, E207, Ammon, Idaho, 83406, United States of America
+
+education:
+  -
+    type: M.S.
+    field: Applied Mathematics
+    school: University of Texas at El Paso
+    year: 2008
+  -
+    type: Ph.D.
+    field: Computer Science
+    school: University of West Bohemia, Pilsen, Czech Republic
+    year: 2007
+  -
+    type: M.S.
+    field: Computer Science
+    school: University of West Bohemia, Pilsen, Czech Republic
+    year: 2003
+
+experience:
+  -
+    position: R&D Engineer at INL
+    start: mid April 2010
+    end: present
+    description: "Developing massively parallel multiphysics framefork for solving coupled systems
+      of partial differential equations using non-linear solvers and Jacobian-Free Newton Krylov methods
+      in C++ - MOOSE. Namely responsible for discontinuos Galerkin method, adaptive time-stepping
+      methods, time integration system, time predictor system, initial condition subsytem, support
+      for variables that do not live on mesh (scalars), enhancements of single matrix preconditioning.
+
+      <p>Developing a code for solving a thermomechanical contact problem using Mortar method for BISON,
+      Rattlesnake and bighorn.</p>
+
+      <p>Design and development of the next generation nuclear power plant safety code – RELAP-7.
+      Currently the software lead, managing the code review process, bug tracking system and
+      merge-request-based code development cycle.</p>"
+  -
+    position: Software Developer of hp-FEM in 3D
+    start: 2006
+    end: March 2010
+    description: "Developing a library for solving systems of PDE in 3D using hp-adaptivity,
+      arbitrary level hanging nodes and multi-mesh assembling. Last two features are currently unique
+      features (according to authors knowledge) in existing FEM codes. Responsibilities included software
+      design, implementation, testing and verification of the code as well as solving real-world
+      problems. Latest work included incorporation of non-linear solvers (currently Trilinos),
+      implementing Jacobian-Free Newton-Krylov method, support for iterative solvers and
+      development of parallel version."
+  -
+    position: Software Developer for Pocket PC
+    start: 2005
+    end: 2008
+    description: "Design and implementation for several smaller and larger applications for Pocket PC
+      platform. Applications distributed as a freeware via <code>pda.jasnapaka.com</code> web pages. In 2008, projects
+      transformed into open source projects. Work included communication with users, solving their
+      problems, implementing new features, testing, development and design of the software."
+  -
+    position: Software Developer
+    start: 2003
+    end: 2006
+    description: "Part-time programmer at Altap s.r.o., Novy Bor, <code>www.altap.cz</code>. Responsible for
+      developing plug-ins to handle 7zip compression, reading ISO image files. Work required to study
+      specifications and implement the software accordingly, also using third-party libraries
+      and incorporate them into the existing framework."
+
+research experience:
+  -
+    type: LDRD program, co-PI
+    start: Sep 2012
+    end: Oct 2013
+    description: MOOSE Capability Extension In Support of Full Core Modeling
+  -
+    type: Post-doctoral position at Idaho National Lab
+    start: April 2010
+    end: August 2010
+    description: Thermomechanical contact problems using Mortar method in 2D.
+  -
+    type: Post-doctoral position at University of Nevada, Reno
+    start: 2009
+    end: Mar 2010
+    description: Adaptive hp-FEM on irregular meshes.
+
+teaching experience:
+  -
+    type: Instructor
+    start: Spring 2009
+    end:
+    school: University of Nevada, Reno
+    courses: Ordinary Differential Equations
+  -
+    type: Teaching Assistant
+    start: 2007
+    end: Spring 2008
+    school: University of Texas, El Paso
+    courses: Math for Social Sciences 1, Math for Social Sciences 2
+
+language skills:
+  -
+    lang: Czech
+    level: mother tongue
+  -
+    lang: English
+    level: advanced both in speaking and writing
+
+technical:
+  languages: C/C++(fluent), perl, Java
+  applications: Eclipse, cmake, make, gnuplot, paraview, plain TeX, LaTeX, doxygen, bugzilla, SVN, git, TRAC
+  operating systems: Linux, Mac OS X
+  parallel: OpenMP, MPI, TBB
+  solvers: Trilinos, libMesh, PETSc
+
+awards:
+  -
+    type: Laboratory Director’s Award
+    text: Idaho National Laboratory
+    year: 2011
+  -
+    type: Laboratory Director’s Award
+    text: Idaho National Laboratory
+    year: 2013
+  -
+    type: R&D 100
+    text: R&D Magazine for the MOOSE framework
+    year: 2014
+
+publications:
+  file: bib.yml
+  journal articles:
+    - andersson2014atomistic
+    - Gaston2014
+    - guo13
+    - ZhangRRCoupling2013
+    - tonks2013multiscale
+    - zhang2012quantitative
+    - tonks12
+    - novascone:2012
+    - Williamson2012
+    - tonks2011marmot
+    - Solin:2010:MDL:1808338.1808429
+    - Solin:2009
+    - solinadaptive
+    - Solin:2010:PAH:1746723.1746766
+
+  conference papers:
+    - relap7MC2013
+    - novasconeMC2013
+    - halesMC2013
+    - in:gaston:13a
+    - in:gaston:13b
+    - co:gaston:13c
+    - co:novascone13
+    - co:tonks12a
+    - co:tonks12c
+    - co:gaston:12
+    - novascone12a
+    - in:gaston:11
+    - co:hales11
+
+  miscellaneous:
+    - r:gaston13
+    - andrs2008adaptive
+    - moertel
+    - inl:ortensi2012
+    - ortensi2012relap
+    - andrs2012relap

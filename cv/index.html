@@ -1,0 +1,124 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CV : David Andrs</title>
+    <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/core.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/cv.css">
+  </head>
+  <body>
+    <main>
+      {% assign person = site.data.cv["person"] %}
+      <div style="text-align: right">
+        <h1>{{ person.name }}</h1>
+        <div>{{ person.address }}</div>
+        <div>Phone: {{ person.phone}} | e-mail: <code>{{ person.email }}</code></div>
+      </div>
+
+      <h2>Education</h2>
+      <ul>
+      {% assign edus = site.data.cv["education"] %}
+      {% for e in edus %}
+        <li class="edu">
+          <span class="type">{{ e.type }}</span>
+          <span class="field">{{ e.field }}</span>.
+          {{ e.school }}, {{ e.year}}
+        </li>
+      {% endfor %}
+      </ul>
+
+      <h2>Experience</h2>
+      <ul class="lst">
+      {% assign exps = site.data.cv["experience"] %}
+      {% for e in exps %}
+        <li>
+          <div class="title">
+            <span>{{ e.position }}</span>
+            <span class="date">{{ e.start }}
+              {% if e.end %}
+               - {{ e.end }}
+              {% endif %}
+            </span>
+          </div>
+          <div>{{ e.description }}</div>
+        </li>
+      {% endfor %}
+      </ul>
+
+      <h2>Research Experience</h2>
+      <ul class="lst">
+      {% assign res = site.data.cv["research experience"] %}
+      {% for e in res %}
+        <li>
+          <div class="title">
+            <span>{{ e.type }}</span>
+            <span class="date">{{ e.start }}
+              {% if e.end %}
+               - {{ e.end }}
+              {% endif %}
+            </span>
+          </div>
+          <div>{{ e.description }}</div>
+        </li>
+      {% endfor %}
+      </ul>
+
+      <h2>Teaching Experience</h2>
+      <ul class="lst">
+      {% assign tes = site.data.cv["teaching experience"] %}
+      {% for e in tes %}
+        <li>
+          <div class="title">
+            <span>{{ e.type }}</span>
+            <span class="date">{{ e.start }}
+              {% if e.end %}
+               - {{ e.end }}
+              {% endif %}
+            </span>
+          </div>
+          <div>{{ e.school }}</div>
+          <div>Courses: {{ e.courses }}</div>
+        </li>
+      {% endfor %}
+      </ul>
+
+      <h2>Language Skills</h2>
+      <ul>
+      {% assign tes = site.data.cv["language skills"] %}
+      {% for e in tes %}
+        <li class="edu">
+            <span class="type">{{ e.lang }}</span>
+            <span>{{ e.level }}</span>
+        </li>
+      {% endfor %}
+      </ul>
+
+      <h2>Technical</h2>
+      <ul>
+      {% assign ts = site.data.cv["technical"] %}
+      {% for e in ts %}
+        <li>
+            <strong>{{ e[0] }}:</strong>
+            <span>{{ e[1] }}</span>
+        </li>
+      {% endfor %}
+      </ul>
+
+      <h2>Awards</h2>
+      <ul>
+      {% assign ts = site.data.cv["awards"] %}
+      {% for e in ts %}
+        <li>
+            <strong>{{ e.type }}</strong>, <span>{{ e.text }}</span>, {{ e.year}}
+        </li>
+      {% endfor %}
+      </ul>
+    </main>
+  </body>
+</html>

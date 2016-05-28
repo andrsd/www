@@ -1,0 +1,49 @@
+body main {
+  margin: auto;
+  width: 800px
+}
+
+h2 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin-top: 1em;
+  padding-top: 0;
+}
+
+li.edu {
+  list-style: none;
+}
+
+.type {
+  font-weight: bold;
+  float: left;
+  width: 5em;
+}
+
+.field {
+  font-weight: bold;
+}
+
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+
+.date {
+  font-style: italic;
+}
+
+.title {
+    position: relative;
+}
+
+.title span:last-child {
+    position: absolute;
+    right: 6px;   /* must be equal to parent's right padding */
+}
+
+.lst li {
+  margin-top: 0.5em;
+}
