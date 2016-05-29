@@ -129,6 +129,7 @@ awards:
 
 publications:
   journal articles:
+    - Gaston_2015
     - andersson2014atomistic
     - Gaston2014
     - guo13
@@ -136,7 +137,6 @@ publications:
     - tonks2013multiscale
     - zhang2012quantitative
     - tonks12
-    - novascone:2012
     - Williamson2012
     - tonks2011marmot
     - Solin:2010:MDL:1808338.1808429
@@ -163,6 +163,4 @@ publications:
     - r:gaston13
     - andrs2008adaptive
     - moertel
-    - inl:ortensi2012
-    - ortensi2012relap
     - andrs2012relap
