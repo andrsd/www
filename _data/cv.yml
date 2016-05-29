@@ -106,8 +106,9 @@ language skills:
     level: advanced both in speaking and writing
 
 technical:
-  languages: C/C++(fluent), perl, Java
-  applications: Eclipse, cmake, make, gnuplot, paraview, plain TeX, LaTeX, doxygen, bugzilla, SVN, git, TRAC
+  languages: C/C++ (fluent), perl
+  applications: "Eclipse, cmake, make, gnuplot, paraview, plain TeX, LaTeX, doxygen, bugzilla, SVN, TRAC,
+    git, gitlab"
   operating systems: Linux, Mac OS X
   parallel: OpenMP, MPI, TBB
   solvers: Trilinos, libMesh, PETSc
