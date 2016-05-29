@@ -33,6 +33,7 @@ gems:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-feed
+  - jekyll/scholar
 paginate: 5
 
 compress_html:

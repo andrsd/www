@@ -119,6 +119,27 @@ layout: compress
         </li>
       {% endfor %}
       </ul>
+
+      <h2>Journal Articles</h2>
+      <ul>
+        {% for e in site.data.cv["publications"]["journal articles"] %}
+        <li>{% reference e %}</li>
+        {% endfor %}
+      </ul>
+
+      <h2>Conference Papers</h2>
+      <ul>
+        {% for e in site.data.cv["publications"]["conference papers"] %}
+        <li>{% reference e %}</li>
+        {% endfor %}
+      </ul>
+
+      <h2>Miscellaneous</h2>
+      <ul>
+        {% for e in site.data.cv["publications"]["miscellaneous"] %}
+        <li>{% reference e %}</li>
+        {% endfor %}
+      </ul>
     </main>
   </body>
 </html>

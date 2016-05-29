@@ -127,7 +127,6 @@ awards:
     year: 2014
 
 publications:
-  file: bib.yml
   journal articles:
     - andersson2014atomistic
     - Gaston2014
