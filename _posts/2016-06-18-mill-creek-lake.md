@@ -7,4 +7,6 @@ tags:
   - hike
 ---
 
-<img src="/images/mill-creek-lake.jpg" width="500" alt="Mill Creek Lake"/>
+<a href="/images/mill-creek-lake.jpg" title="Mill Creek Lake" style="border: 0">
+  <img src="/images/mill-creek-lake-sm.jpg" width="500" alt="Mill Creek Lake"/>
+</a>
