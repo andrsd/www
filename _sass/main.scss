@@ -224,9 +224,10 @@ iframe {
   height: 1px;
   margin: 2em 0;
 }
-article {
+article, .hike-header {
   max-width: 500px;
   margin: 0 auto;
+  text-align: justify;
   .title {
     line-height: 1.4em;
     text-align: center;
@@ -388,4 +389,44 @@ section {
 .footer-social-links a:hover {
   color: #fff;
   background: #111;
+}
+
+.hike-header {
+  margin-bottom: 1.5em;
+}
+
+ul.box:last-child {
+  margin-right: 0;
+  width: 150px;
+}
+
+ul.box {
+  display: inline-block;
+  width: 150px;
+  padding-left: 0;
+  margin: 10px 25px 10px 0px;
+
+  li {
+    list-style: none;
+  }
+
+  li.title {
+    text-align: left;
+    font-size: 75%;
+    color: #555;
+  }
+
+  li.value {
+    font-size: 150%;
+    font-weight: 600;
+    margin-left: auto;
+    float: right;
+  }
+
+  li.svalue {
+    font-size: 100%;
+    font-weight: 600;
+    margin-left: auto;
+    float: right;
+  }
 }
