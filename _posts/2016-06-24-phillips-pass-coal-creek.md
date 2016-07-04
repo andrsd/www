@@ -15,7 +15,7 @@ tags:
   - hike
 ---
 
-For this hike you will need a shuttle and possibly fording shoes. It it possible
+For this hike you will need a shuttle and possibly fording shoes. It is possible
 to ford all creeks without fording shoes, but bringing them will make it easier.
 
 The first part of the trail climbs up to Phillips Pass and is very easy to follow.
