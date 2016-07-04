@@ -123,6 +123,12 @@ layout: compress
           <li class="svalue">{{ page.total_climb }} m</li>
         </ul>
       </div>
+      {% if page.getting-there %}
+      <div>
+        <strong>Getting there:</strong>
+        {{ page.getting-there }}
+      </div>
+      {% endif %}
       <div>
         {{ page.content }}
       </div>
