@@ -6,8 +6,8 @@ gpx: /data/gps/160618-0845-mill-creek.gpx
 map:
   center: '-113.62018238994563, 44.676983007163486'
   zoom: 12
-type: in-and-out
-difficulty: easy
+type: 'In & Out'
+difficulty: 'Easy'
 distance: 10.02
 duration: '02:07:50'
 total_climb: 590

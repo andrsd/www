@@ -6,10 +6,13 @@ gpx: /data/gps/160624-0854-phillips-pass-to-coal-creek.gpx
 map:
   zoom: 12
   center: '-110.94007066519332, 43.54971956099043'
+type: 'Loop'
+difficulty: Strenuous
 distance: 28.56
 duration: '08:38:22'
 total_climb: 1295
-difficulty: strenuous
+min_ele: 2222.0
+max_ele: 2924.0
 tags:
   - idaho
   - hike

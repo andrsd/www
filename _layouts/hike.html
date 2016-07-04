@@ -109,26 +109,22 @@ layout: compress
       </script>
 
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-      <div style="display: table">
-        <ul class="box">
-          <li class="title" style="text-transform: uppercase">distance</li>
-          <li class="svalue">{{ page.distance }} km</li>
-        </ul>
-        <ul class="box">
-          <li class="title" style="text-transform: uppercase">duration</li>
-          <li class="svalue">{{ page.duration }}</li>
-        </ul>
-        <ul class="box">
-          <li class="title" style="text-transform: uppercase">total climb</li>
-          <li class="svalue">{{ page.total_climb }} m</li>
+      <div class="hike-info">
+        <ul>
+          <li><span class="title" style="text-transform: uppercase">Type</span> <strong>{{ page.type }}</strong></li>
+          <li><span class="title" style="text-transform: uppercase">Difficulty</span> <strong>{{ page.difficulty }}</strong></li>
+          <li><span class="title" style="text-transform: uppercase">Distance</span> <strong>{{ page.distance }} km</strong></li>
+          <li><span class="title" style="text-transform: uppercase">Duration</span> <strong>{{ page.duration }}</strong></li>
+          <li><span class="title" style="text-transform: uppercase">Total climb</span> <strong>{{ page.total_climb }} m</strong></li>
+          <li><span class="title" style="text-transform: uppercase">Highest point</span> <strong>{{ page.max_ele }} m</strong></li>
+          {% if page.getting-there %}
+          <li class="getting-there">
+            <span class="title" style="text-transform: uppercase">Getting there</span>
+            {{ page.getting-there }}
+          </li>
+        {% endif %}
         </ul>
       </div>
-      {% if page.getting-there %}
-      <div>
-        <strong>Getting there:</strong>
-        {{ page.getting-there }}
-      </div>
-      {% endif %}
       <div>
         {{ page.content }}
       </div>

@@ -394,6 +394,31 @@ section {
 .hike-header {
   margin-bottom: 1.5em;
 }
+.hike-info {
+  margin: 1em auto 2em;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      display: block;
+      span.title {
+        display: inline-block;
+        width: 120px;
+        font-size: 75%;
+        color: #555;
+        text-align: left;
+      }
+    }
+    li.getting-there {
+      margin-top: 1em;
+      span.title {
+        font-size: 75%;
+        color: #555;
+        text-align: left;
+      }
+    }
+  }
+}
 
 ul.box:last-child {
   margin-right: 0;
