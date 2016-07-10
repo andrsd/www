@@ -169,7 +169,7 @@ class Run
     puts "  center: '" + @map_center_lon.to_s + ", " + @map_center_lat.to_s + "'"
     puts "  zoom: 12"
     puts "distance: " + meters_to_kms(@distance).round(2).to_s
-    puts "duration: " + Time.at(@duration).utc.strftime("%H:%M:%S") + "'";
+    puts "duration: '" + Time.at(@duration).utc.strftime("%H:%M:%S") + "'";
     puts "total_climb: " + @total_climb.round(0).to_s
     # puts "elevation:"
     # for i in @elevation

@@ -7,7 +7,7 @@ map:
   center: '-110.92479188599708, 43.81429739369502'
   zoom: 13
 distance: 22.5
-duration: 06:01:49'
+duration: '06:01:49'
 total_climb: 1253
 min_ele: 2111.31
 max_ele: 2904.48
