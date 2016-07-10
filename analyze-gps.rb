@@ -38,6 +38,8 @@ class Run
     @min_pace =  10000
     @map_center_lat = 0
     @map_center_lon = 0
+    @start_lat = 0
+    @start_lon = 0
   end
 
   def meters_to_miles(meters)
@@ -105,6 +107,8 @@ class Run
         start_time = time
         split_climb = 0
         split_time = start_time
+        @start_lon = lon
+        @start_lat = lat
         first = false
       else
         if ele > last_ele
@@ -173,6 +177,7 @@ class Run
     # end
     puts "min_ele: " + @min_ele.to_s
     puts "max_ele: " + @max_ele.to_s
+    puts "start: '" + @start_lon.to_s + ", " + @start_lat.to_s + "'"
     puts "---"
   end
 end

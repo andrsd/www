@@ -13,6 +13,7 @@ duration: '08:38:22'
 total_climb: 1295
 min_ele: 2222.0
 max_ele: 2924.0
+start: '-110.927417, 43.506068'
 tags:
   - idaho
   - hike

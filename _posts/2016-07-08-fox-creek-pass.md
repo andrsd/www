@@ -11,6 +11,7 @@ duration: '03:16:54'
 total_climb: 306
 min_ele: 2054
 max_ele: 2243
+start: '-111.042976, 43.639748'
 type: 'In and Out'
 difficulty: 'Easy to medium'
 tags:
