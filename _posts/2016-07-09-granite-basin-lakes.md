@@ -5,7 +5,7 @@ date: 2016-07-09 09:30 -0700
 gpx: /data/gps/160709-0930-granite-basin-lakes.gpx
 map:
   center: '-110.92479188599708, 43.81429739369502'
-  zoom: 13
+  zoom: 13.75
 distance: 22.5
 duration: '06:01:49'
 total_climb: 1253
