@@ -27,7 +27,11 @@ layout: compress
       <div id="info" style="width: 1024px; margin: 0 auto;">&nbsp;</div>
       <script type="text/javascript">
       var raster = new ol.layer.Tile({
-        source: new ol.source.MapQuest({layer: 'osm'})
+        source: new ol.source.OSM({
+          attributions: [
+            ol.source.OSM.ATTRIBUTION
+          ]
+        })
       });
 
       var style = {
@@ -70,6 +74,11 @@ layout: compress
       var map = new ol.Map({
         layers: [raster, vector],
         target: document.getElementById('map'),
+        controls: ol.control.defaults({
+          attributionOptions: /** @type {olx.control.AttributionOptions} */ ({
+            collapsible: false
+          })
+        }),
         view: new ol.View({
           center: ol.proj.fromLonLat([{{ page.map.center }}]),
           zoom: {{ page.map.zoom }}
