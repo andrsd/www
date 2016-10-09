@@ -11,6 +11,7 @@ author_gravatar:    09f4069b6d32efee14765132899f848a # Gravatar md5 hash
 baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /:title # Post permalink
 timezone:           US/Mountain # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+google_verify:      tMVFkptY4Hv89ST5qn-vWeHEeLO_EU4R9GFWlkfVkCs
 
 # Site Build
 highlighter:        rouge
